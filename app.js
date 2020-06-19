@@ -260,7 +260,7 @@ for (var i = 0; i < 1; i++) {
 
  // chapter 26-30 Task #8
 
- // chapter # 31-34 Task #1
+ // chapter #31-34 Task #1
 
  document.write("<h3> Chapter # 31-34  </h3>")
 
@@ -268,7 +268,7 @@ for (var i = 0; i < 1; i++) {
 
  document.write(currentDate + "<br />");
 
- // chapter # 31-34 Task #2
+ // chapter #31-34 Task #2
 
  //var monthNames = [""];
 
@@ -280,7 +280,7 @@ for (var i = 0; i < 1; i++) {
  
  document.write("<br/>" +"Current month: " + months[monthName] + "<br />");
 
- // chapter # 31-34 Task #3  
+ // chapter #31-34 Task #3  
 
  var days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
    
@@ -290,7 +290,7 @@ for (var i = 0; i < 1; i++) {
     
  alert("Today is " + days[c] );
 
- // chapter # 31-34 Task #4
+ // chapter #31-34 Task #4
 
  var how = new Date();
  var toDay = how.getDay();
@@ -302,7 +302,7 @@ for (var i = 0; i < 1; i++) {
    alert("It's Normal Day");   
 }
 
- // chapter # 31-34 Task #5
+ // chapter #31-34 Task #5
 
  var noww = new Date();
 
@@ -316,7 +316,7 @@ for (var i = 0; i < 1; i++) {
   alert("Last Days of month"); 
 }
 
-// chpater # 31-34 Task #6
+// chpater #31-34 Task #6
 
 var myObJ = new Date();
  
@@ -327,7 +327,7 @@ document.write("<br/>" + "Current Date: " + myObJ +
                  millisecondS +"<br/>"  +"\n Elapsed Minutes Since January 1 1970: "
                  + millisecondS/60000);
 
- // chapter # 31-34 Task #7
+ // chapter #31-34 Task #7
  
  var newObj = new Date();
 
@@ -342,13 +342,13 @@ document.write("<br/>" + "Current Date: " + myObJ +
     alert("It's PM");
 }
 
- // chapter # 31-34 Task #8
+ // chapter #31-34 Task #8
 
  var laterObj = new Date("31-Dec-2020");
 
  document.write("<br/>" + "<br/>" + "Later Date: " + laterObj);
 
- // chapter # 31-34 Task #9
+ // chapter #31-34 Task #9
  
  var differenceS = new Date().getTime() - new Date("June 18, 2015").getTime();
 
@@ -358,7 +358,7 @@ var a = differenceS / (1000 * 60 * 60 * 24);
    
 document.write("<br/>" + "<br/>" + a  + " days have passed since 1st Ramadan, 2015" + "<br/>");
 
- // chapter # 31-34 Task #10
+ // chapter #31-34 Task #10
 
  var daate = new Date("December 5, 2015");
 
@@ -375,7 +375,7 @@ document.write("<br/>" + "<br/>" + a  + " days have passed since 1st Ramadan, 20
                 "\n" +'<br/>' + difff + 
                 " seconds has passed since beginning of 2015");
 
- // chapter # 31-34 Task #11
+ // chapter #31-34 Task #11
  
  var reset = new Date();
 
@@ -384,7 +384,7 @@ document.write("<br/>" + "<br/>" + a  + " days have passed since 1st Ramadan, 20
  document.write("<br/>" + "<br/>" +"Current Date: " + reset + 
                 "<br/>" + "1 hour ago it was: " + resetAtime + "<br/>" );
 
- // chapter # 31-34 Task #12
+ // chapter #31-34 Task #12
  
  var dateObj = new Date();
 
@@ -395,7 +395,7 @@ document.write("<br/>" + "<br/>" + a  + " days have passed since 1st Ramadan, 20
  document.write("<br/>" +"Current Date: " + dateObj + '<br/>' +
                 "100 years back it was: " +    hundredYearsBack + "<br/>");
 
- // chapter # 31-34 Task #13
+ // chapter #31-34 Task #13
  
  var myAge = +prompt("Enter your age");
 
@@ -408,7 +408,7 @@ document.write("<br/>" + "<br/>" + a  + " days have passed since 1st Ramadan, 20
  document.write("<br/>" + "Your age is: "+ myAge + '<br/>' +
                 "Your birthday year is: " + year + "<br/> <br />");
 
- // chapter # 31-34 Task #14
+ // chapter #31-34 Task #14
  
  var customer = prompt("Customer Name");
 
@@ -445,3 +445,229 @@ document.write("<br/>" + "<br/>" + a  + " days have passed since 1st Ramadan, 20
 
  document.write("<br/>" + "Gross Amount Payable(after Due Date): " + fixedAmount);
                 
+ // chapter #35-38 Task #1
+
+  document.write("<h3> Functions </h3>")
+
+ function pstTime() {
+   
+   var currentDate = new Date();
+   
+    document.write(currentDate + "<br />");
+}
+  
+         pstTime();
+
+ // chapter #35-38 Task #2
+ 
+ function myName(firstName, lastName) {
+
+   document.write("<br/>" + " Hello " + firstName +"  " +  lastName);
+     
+}
+      
+       myName("Hamza", "Ahmed" + "<br />"); 
+
+ // chapter #35-38 Task #3
+ 
+ function add(x, y) {
+
+  alert(x + y);
+  
+  }
+ 
+            add(7, 7);
+
+ // chapter #35-38 Task #4
+ 
+ function calT(a, b, op) {
+
+  var result;
+  
+  if (op == "+") {
+  
+    result = a + b;
+    
+     alert(result);
+ }
+ 
+  else if (op == "-") {
+ 
+    result = a - b;
+    
+    alert(result);
+ 
+ }
+ 
+  else if(op == "*") {
+ 
+    result = a * b;
+  
+     alert(result);
+ }
+ 
+  else if(op == "/"){
+ 
+     result = a / b;
+     
+     alert(result);
+ }
+ 
+ 
+ }
+         calT(51, 8, '-');
+
+ // chapter #35-38 Task #5
+ 
+ function squaR(a) {
+   
+  var squared = Math.pow(a, 3);
+  
+    document.write("<br/>" + "Squares Its: " + squared);
+}       
+              squaR(5);
+
+  
+ // chapter #35-38 Task #6
+
+ function factorialNum(num){
+
+  for (var i = num - 1; i >= 1; i--) {
+   
+        num = num * 1;
+   
+   
+    
+   }           
+            alert(num);     
+ }
+     
+      factorialNum(5);
+
+ // chapter #35-38 Task #7
+ 
+ function  count(add1, add2) {
+    
+  for (var i = add1; i <= add2; i++) {
+          
+          document.write(i + "<br/>") 
+        }
+  }
+             count(0, 10);
+
+ // chapter #35-38 Task #8
+ 
+ function calculateHypo(b, p){
+ 
+  var bSquare = Math.pow(b, 2);
+  var pSquare = Math.pow(p, 2);
+
+  var prod = bSquare + pSquare;
+  var hypo = Math.sqrt(prod);
+  
+document.write("<br/>" + "This the result of a hypotenuse: " + " " + 
+               hypo + "<br /> <br />");
+
+}
+        calculateHypo(5, 4)
+
+ // chapter #35-38 Task #9 
+ 
+  var length = parseInt(prompt("Enter a whole number for the length of your rectangle."));
+  var width = parseInt(prompt("Enter a whole number for the width of your rectangle."));
+
+    function area(length, width) {
+        return length * width;
+    }
+
+    document.write('The area of your rectangle is ' + area(length, width) + "<br />");         
+   
+ 
+
+
+ // chapter #35-38 Task#10
+ 
+ function check(any){
+
+  var b = any.split(" ").reverse().join(' ');
+  
+  if(b === any){
+  
+   alert("The word is a palindrome");
+  }
+  }
+        check("madam");
+
+ // chapter #35-38 Task#11
+
+ function checkCase(text){
+
+  text = text.toLowerCase().split(' ');
+  
+  for(var i = 0; i < text.length; i++){
+  
+  text[i] = text[i].charAt(0).toUpperCase() + text[i].slice(1);
+  
+  }
+   document.write("<br/>" + text.join(' ') + "<br/>");
+  }
+  
+      checkCase("the quick brown fox" + "<br />");
+
+ // chapter #35-38 Task#12
+ 
+ function longestWord(str){
+
+  var arr = str.split(' ');
+  
+  var long = "";
+  
+  for(var word of arr){
+   
+   if(word.length > long.length){
+    
+        long = word;
+    
+    }
+   }
+           return long;
+  }
+   
+  document.write(longestWord("Web Development Tutorial") + "<br />");
+
+  // chapter #35-38 Task#13
+
+  function countDown(str, letter){
+
+    count = 0;
+
+   for(var i = 0; i < str.length; i++){
+
+    if(str.charAt(i) === letter){
+      
+      count++;
+   }
+  }
+         alert(count);
+ }                       
+      countDown("JSResourceS.com", "S");
+
+ // chapter #35-38 Task#14
+ 
+ function calcCircumference(radius){
+
+  var circumference = 2 * 1.67 * radius
+  
+  document.write("<br/>" + "The circumference of the circle is " + circumference);
+  
+}
+            calcCircumference(4);
+
+  function calcArea(radi){
+
+     var area = 1.67 * (radi * radi);
+    
+     document.write("<br/>" + "The area of the circle is " + area + "<br />");
+  }
+           calcArea(6);           
+
