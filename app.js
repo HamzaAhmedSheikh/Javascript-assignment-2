@@ -288,7 +288,7 @@ for (var i = 0; i < 1; i++) {
  
  var c = rightNow.getDay();
     
- document.write("<br/>" +"Today is " + days[c]);
+ alert("Today is " + days[c] );
 
  // chapter # 31-34 Task #4
 
@@ -313,5 +313,135 @@ for (var i = 0; i < 1; i++) {
 }    
 
  else{ 
-  alert("Last Day of month"); 
+  alert("Last Days of month"); 
 }
+
+// chpater # 31-34 Task #6
+
+var myObJ = new Date();
+ 
+ var millisecondS = myObJ.getTime();
+ 
+document.write("<br/>" + "Current Date: " + myObJ +
+                "<br/>" + "\n Elapsed Milliseconds Since January 1 1970: " +
+                 millisecondS +"<br/>"  +"\n Elapsed Minutes Since January 1 1970: "
+                 + millisecondS/60000);
+
+ // chapter # 31-34 Task #7
+ 
+ var newObj = new Date();
+
+ var hours = newObj.getHours();
+
+  if(hours < 12){
+
+   alert("It's AM");
+
+}
+  else{
+    alert("It's PM");
+}
+
+ // chapter # 31-34 Task #8
+
+ var laterObj = new Date("31-Dec-2020");
+
+ document.write("<br/>" + "<br/>" + "Later Date: " + laterObj);
+
+ // chapter # 31-34 Task #9
+ 
+ var differenceS = new Date().getTime() - new Date("June 18, 2015").getTime();
+
+var a = differenceS / (1000 * 60 * 60 * 24);
+   
+    a = Math.floor(a);
+   
+document.write("<br/>" + "<br/>" + a  + " days have passed since 1st Ramadan, 2015" + "<br/>");
+
+ // chapter # 31-34 Task #10
+
+ var daate = new Date("December 5, 2015");
+
+ var day = new Date();
+
+ var iff = day.getTime() - daate.getTime();
+
+ var secondss = iff / 1000;
+
+ var difff = Math.abs(secondss);
+
+
+ document.write("<br/>" + "On reference date: " + daate + 
+                "\n" +'<br/>' + difff + 
+                " seconds has passed since beginning of 2015");
+
+ // chapter # 31-34 Task #11
+ 
+ var reset = new Date();
+
+ var resetAtime = new Date(reset.getTime()-1000*60*60); 
+
+ document.write("<br/>" + "<br/>" +"Current Date: " + reset + 
+                "<br/>" + "1 hour ago it was: " + resetAtime + "<br/>" );
+
+ // chapter # 31-34 Task #12
+ 
+ var dateObj = new Date();
+
+ var hundredYearsBack = new Date(dateObj.getTime()-1000*60*60*24*365*100);
+
+         alert(hundredYearsBack)
+
+ document.write("<br/>" +"Current Date: " + dateObj + '<br/>' +
+                "100 years back it was: " +    hundredYearsBack + "<br/>");
+
+ // chapter # 31-34 Task #13
+ 
+ var myAge = +prompt("Enter your age");
+
+ var current = new Date();
+
+ var currentYear = current.getUTCFullYear();
+
+ var year = currentYear - myAge;
+
+ document.write("<br/>" + "Your age is: "+ myAge + '<br/>' +
+                "Your birthday year is: " + year + "<br/> <br />");
+
+ // chapter # 31-34 Task #14
+ 
+ var customer = prompt("Customer Name");
+
+ var month = prompt("Enter a month");
+
+ var numOfUnits = prompt("Enter number of units");
+
+ var charge_unit = prompt("Enter charge per unit");
+
+ var net_amount = numOfUnits * charge_unit;
+
+ var latePayment_surcharge = 309.20;
+
+ var gros_amount = net_amount + latePayment_surcharge;
+
+ var fixedAmount = gros_amount.toFixed()
+
+     console.log(fixedAmount);
+     
+ 
+
+
+ document.write("Customer Name: " + customer + "<br/>");
+
+ document.write("<br/>" + "Month: " + month + "<br/>");
+
+ document.write("<br/>" + "Number of units: " + numOfUnits + "<br/>");
+
+ document.write("<br/>" + "Charges per units: " + charge_unit +'<br/>');
+
+ document.write("<br/>" + "Net Amount Payable(within Due Date): " + net_amount + "<br/>");
+
+ document.write("<br/>" + 'Late payment surcharge: ' + latePayment_surcharge + '<br/>');
+
+ document.write("<br/>" + "Gross Amount Payable(after Due Date): " + fixedAmount);
+                
