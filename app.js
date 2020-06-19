@@ -223,4 +223,95 @@ for (var i = 0; i < 1; i++) {
   
   document.write("<br /> " + "<b> Text: </b>" + sentence)
   document.write("<br />" + "<b> There are </b> " + searchGlobal + ' occurrence(s) of word the')
-                     
+  
+  // chapter 26-30 Task #1
+ 
+ var num = 3.45214
+
+ document.write("<br/>" + "<br/>" + "<b> number: </b>" + num + "<br>");
+
+ document.write("<b> round off value: </b>" + Math.round(num) + "<br>");   
+
+ document.write("<b> floor value: </b>" + Math.floor(num) + "<br>");        
+
+ document.write("<b> ceil value: </b>" + Math.ceil(num) + "<br><br>"); 
+
+ // chapter 26-30 Task #2
+ 
+ var num1 = -2.673
+
+ document.write("<b> number: </b>" + num1 + "<br>");
+
+ document.write("<b> round off value: </b>" + Math.round(num1) + "<br>");   
+
+ document.write("<b> floor value: </b>" + Math.floor(num1) + "<br>");        
+
+ document.write("<b> ceil value: </b>" + Math.ceil(num1) + "<br><br>");     
+
+ // chapter 26-30 Task #3
+
+ // chapter 26-30 Task #4
+ 
+ // chapter 26-30 Task #5
+
+ // chapter 26-30 Task #6
+
+ // chapter 26-30 Task #7
+
+ // chapter 26-30 Task #8
+
+ // chapter # 31-34 Task #1
+
+ document.write("<h3> Chapter # 31-34  </h3>")
+
+ var currentDate = new Date();
+
+ document.write(currentDate + "<br />");
+
+ // chapter # 31-34 Task #2
+
+ //var monthNames = [""];
+
+ var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul", "Aug", "Sep","Oct" ,"Nov", "Dec"];
+   
+ var right = new Date();
+
+ var monthName = right.getMonth();
+ 
+ document.write("<br/>" +"Current month: " + months[monthName] + "<br />");
+
+ // chapter # 31-34 Task #3  
+
+ var days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+   
+ var rightNow = new Date();
+ 
+ var c = rightNow.getDay();
+    
+ document.write("<br/>" +"Today is " + days[c]);
+
+ // chapter # 31-34 Task #4
+
+ var how = new Date();
+ var toDay = how.getDay();
+
+ if(toDay === 6 || toDay === 0){   
+   alert("It's Fun Day"); 
+ }
+ else {
+   alert("It's Normal Day");   
+}
+
+ // chapter # 31-34 Task #5
+
+ var noww = new Date();
+
+ var datee = noww.getDate();
+
+ if(datee < 16){ 
+  alert("First fifteen days of the month");
+}    
+
+ else{ 
+  alert("Last Day of month"); 
+}
