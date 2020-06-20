@@ -266,7 +266,7 @@ for (var i = 0; i < 1; i++) {
  // chapter #26-30 Task #5
 
   var randomNumber = Math.random() * 2;
-     randomNumber = Math.ceil(randomNumber);
+      randomNumber = Math.ceil(randomNumber);
 
       //randomNumber = Math.floor(randomNumber) + 1;
 
