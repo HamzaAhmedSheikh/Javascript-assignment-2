@@ -1,4 +1,4 @@
- // chapter 21-25 Task #1
+ // chapter #21-25 Task #1
 
  var first = prompt("What is your first name?");
  var last = prompt("What is your last name?");
@@ -6,7 +6,7 @@
   
  document.write("<b> Hello </b>" +  fullName + "<br/>");
 
- // chapter 21-25 Task #2
+ // chapter #21-25 Task #2
 
  var moblieSpec = "<b> My favorite phone is: </b>";
  var mobleSpe = " Samsung Galaxy S6 Edge Plus"; 
@@ -18,7 +18,7 @@
  document.write("<br/>" + "<b> Length of string: </b>" + moblie);
 
 
-// chapter 21-25 Task #3
+// chapter #21-25 Task #3
 
  var countryName = "Pakistan";
  var find = countryName.indexOf("n");  
@@ -26,7 +26,7 @@
  document.write("<br/>" + "<br/>" + "<b> String: </b>" + countryName);
  document.write("<br/>" + "<b> index of 'n' : </b>" +  find);
 
-// chapter 21-25 Task #4
+// chapter #21-25 Task #4
 
  var greet = "Hello World";
  var findOne = greet.lastIndexOf("l");
@@ -34,7 +34,7 @@
  document.write("<br/>" + "<br/>" + "<b> String: </b>" + greet);
  document.write("<br/>" + "<b> Last Index of 'l' : </b>" +  findOne);
 
-// chapter 21-25 Task #5
+// chapter #21-25 Task #5
 
  var countryNameOne = "Pakistani";
  var findOne = countryNameOne.charAt(3);
@@ -42,7 +42,7 @@
  document.write("<br/>" + "<br/>" + "<b> String: </b>" +  countryNameOne);
  document.write("<br/>" + "<b> Character at index 3: </b>" + findOne);
 
-// chapter 21-25 Task #6
+// chapter #21-25 Task #6
 
  var firstOne = prompt("What is your first name again? ");
  var lastTwo = prompt("What is your last name again? ");
@@ -50,7 +50,7 @@
   
   document.write("<br/>" + "<br/>" + "<b> After concat method(): </b>" + "  " + fullNameZero);
 
-// chapter 21-25 Task #7
+// chapter #21-25 Task #7
 
  var cityName = "Hyderabad";
  var aCityName = "Hyderabad";
@@ -60,7 +60,7 @@
  document.write("<br/>" + "<br/>" + "<b> City: </b>"+ cityName);
  document.write("<br/>" + "<b> After replacement: </b>" + aCityName); 
 
-// chapter 21-25 Task #8
+// chapter #21-25 Task #8
 
  var message = "Ali and Sami are best friends.They play cricket and football together." 
  var replaceAMessage =  "Ali and Sami are best friends.They play cricket and football together."
@@ -70,7 +70,7 @@ replaceAMessage = replaceAMessage.replace("Ali and Sami are best friends.They pl
  document.write("<br/>" + "<br/>" + "<b> Message: </b> " + message);
  document.write("<br/>" + "<b> After replacement: </b>" + replaceAMessage);
 
-// chapter 21-25 Task #9
+// chapter #21-25 Task #9
 
  var num = 472;
  var strinGinNum = num.toString();
@@ -79,7 +79,7 @@ replaceAMessage = replaceAMessage.replace("Ali and Sami are best friends.They pl
  document.write("<br/>" + "<br/>" + "<b> Value: </b>" + strinGinNum);
  document.write("<br/>" + "<b> Type: </b>" + stri);
 
-// chapter 21-25 Task #10
+// chapter #21-25 Task #10
 
  var dry = "peanuts";
  var dryOne = dry.toUpperCase();
@@ -87,7 +87,7 @@ replaceAMessage = replaceAMessage.replace("Ali and Sami are best friends.They pl
  document.write("<br/>" + "<br/>" + "<b> User input: </b>" + dry);
  document.write("<br/>" + "<b> Upper case: </b>" + dryOne); 
 
-// chapter 21-25 Task #11
+// chapter #21-25 Task #11
 
  var language = prompt('What is your favourite programming language')
  var select = language.charAt(0).toUpperCase()
@@ -98,7 +98,7 @@ replaceAMessage = replaceAMessage.replace("Ali and Sami are best friends.They pl
  document.write("<br/>" + "<br/>" + "<b> User input: </b>" + language);
  document.write("<br/>" + "<b> Title Case: </b>" + select + slices);
 
-// chapter 21-25 Task #12
+// chapter #21-25 Task #12
 
  var num = 35.36;
 
@@ -113,7 +113,7 @@ replaceAMessage = replaceAMessage.replace("Ali and Sami are best friends.They pl
  document.write("<br/>" + "<br/>" + "<b> Number: </b>" + num)  
  document.write("<br/>" + "<b> Result: </b>" + num3 + "<br />");
 
-// chapter 21-25 Task #13
+// chapter #21-25 Task #13
 
  var userName = prompt("Enter username");
 
@@ -128,7 +128,7 @@ replaceAMessage = replaceAMessage.replace("Ali and Sami are best friends.They pl
       }
  }
 
- // chapter 21-25 Task #14
+ // chapter #21-25 Task #14
 
  var userPrompt = prompt("Welcome to ABC Bakery.What do you want to order sir/ma'ma?");
  var bakerArr = ["cake", "apple pie","cookie", "chips" , "patties"];
@@ -166,7 +166,7 @@ replaceAMessage = replaceAMessage.replace("Ali and Sami are best friends.They pl
   }
 
 
- // chapter 21-25 Task #15
+ // chapter #21-25 Task #15
 
  var input = prompt("Enter password"); 
 
@@ -192,7 +192,7 @@ for (var i = 0; i < 1; i++) {
 
  
 
- //chapter 21-25 Task #16
+ //chapter #21-25 Task #16
 
  var str = "University of Karachi";    
  
@@ -202,7 +202,7 @@ for (var i = 0; i < 1; i++) {
         document.write(str.toString().split(''));                 
       }
 
-  //chapter 21-25 Task #17
+  //chapter #21-25 Task #17
 
   var userInput = "Pakistan";
 
@@ -213,7 +213,7 @@ for (var i = 0; i < 1; i++) {
   document.write("<br /> <br />" + "<b>User input: </b>" + userInput + "<br />")  
   document.write("<b>Last character of input: </b>" + lastChar + "<br />")  
 
- // chapter 21-25 Task #18
+ // chapter #21-25 Task #18
 
  var sentence = "The quick brown fox jumps over the lazy dog.";
  var lowerCase =  sentence.toLowerCase()
@@ -224,7 +224,7 @@ for (var i = 0; i < 1; i++) {
   document.write("<br /> " + "<b> Text: </b>" + sentence)
   document.write("<br />" + "<b> There are </b> " + searchGlobal + ' occurrence(s) of word the')
   
-  // chapter 26-30 Task #1
+  // chapter #26-30 Task #1
  
  var num = 3.45214
 
@@ -236,7 +236,7 @@ for (var i = 0; i < 1; i++) {
 
  document.write("<b> ceil value: </b>" + Math.ceil(num) + "<br><br>"); 
 
- // chapter 26-30 Task #2
+ // chapter #26-30 Task #2
  
  var num1 = -2.673
 
@@ -248,21 +248,69 @@ for (var i = 0; i < 1; i++) {
 
  document.write("<b> ceil value: </b>" + Math.ceil(num1) + "<br><br>");     
 
- // chapter 26-30 Task #3
+ // chapter #26-30 Task #3
 
- // chapter 26-30 Task #4
+  var absoluteValue = -4;
+
+  var value = Math.abs(absoluteValue)
+
+  document.write("The absolute value of " + absoluteValue + " is " + value + "<br />")  
+
+ // chapter #26-30 Task #4
+
+ var random = Math.random() * 6;
+     random = Math.ceil(random);
+       // random = Math.floor(random) + 1;
+  document.write("<br/>" + "random dice value: " + random);
  
- // chapter 26-30 Task #5
+ // chapter #26-30 Task #5
 
- // chapter 26-30 Task #6
+  var randomNumber = Math.random() * 2;
+     randomNumber = Math.ceil(randomNumber);
 
- // chapter 26-30 Task #7
+      //randomNumber = Math.floor(randomNumber) + 1;
 
- // chapter 26-30 Task #8
+      document.write(randomNumber);
+      document.write("<br/>");
+  
+  var coin = randomNumber === 1 ? "Tails" : "Heads";
+
+      document.write("random coin value: " + coin);
+      document.write("<br/><br/>");
+
+ // chapter #26-30 Task #6
+
+ var ranDom = Math.random() * 100;
+
+ var ranDomOne = Math.round(ranDom);
+
+ document.write( "random number between 1 to 100: "  + ranDomOne + "<br />");
+
+ // chapter #26-30 Task #7
+
+ var yourWeight = parseInt(prompt("Enter your weight in kilograms"))
+
+        document.write("The weight of user is " + yourWeight + " kilograms")
+
+ // chapter #26-30 Task #8
+
+  var guessANumber = +prompt("Enter a number between 1 to 10")
+
+  var secretNumber = Math.floor(Math.random() * 10);
+  // console.log(secretNumber);
+
+   if(guessANumber == secretNumber) {
+
+     alert("Congratulations your enter number is correct")
+   }
+   else {
+     alert("try again" + " The number is " + secretNumber)
+   }
+  
 
  // chapter #31-34 Task #1
 
- document.write("<h3> Chapter # 31-34  </h3>")
+ document.write("<h3> Date  </h3>")
 
  var currentDate = new Date();
 
@@ -523,26 +571,19 @@ document.write("<br/>" + "<br/>" + a  + " days have passed since 1st Ramadan, 20
    
   var squared = Math.pow(a, 3);
   
-    document.write("<br/>" + "Squares Its: " + squared);
+    document.write("<br/>" + "Squares Its: " + squared + "<br />");
 }       
               squaR(5);
 
   
  // chapter #35-38 Task #6
 
- function factorialNum(num){
+ function factorial(n) {
+  return (n != 1) ? n * factorial(n - 1) : 1;
+}
 
-  for (var i = num - 1; i >= 1; i--) {
-   
-        num = num * 1;
-   
-   
-    
-   }           
-            alert(num);     
- }
-     
-      factorialNum(5);
+ document.write(" factorial number is " +  factorial(5) + "<br/>") 
+
 
  // chapter #35-38 Task #7
  
