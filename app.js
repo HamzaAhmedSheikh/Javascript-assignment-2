@@ -712,3 +712,5 @@ document.write("<br/>" + "This the result of a hypotenuse: " + " " +
   }
            calcArea(6);           
 
+
+  /*---------------------Javascript Assignment #2 completed"-------------------------*/           
